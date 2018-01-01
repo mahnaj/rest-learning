@@ -10,4 +10,9 @@ public class MyRestController {
     public String ping(){
         return "Poooooooong !!!";
     }
+	
+	@RequestMapping("/bounani")
+    public String ping(){
+        return "Bounani toi eussiiii !!!";
+    }
 }
