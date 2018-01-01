@@ -12,7 +12,7 @@ public class MyRestController {
     }
 	
 	@RequestMapping("/bounani")
-    public String ping(){
-        return "Bounani toi eussiiii !!!";
+    public String bounani(){
+        return "Bounani toi aussiiii !!!";
     }
 }
