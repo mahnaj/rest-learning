@@ -1,8 +1,8 @@
 package com.mna.learning.rest.service;
 
-import com.mna.learning.rest.dao.Person;
+import com.mna.learning.rest.model.PersonDto;
 
 public interface PersonService {
-    void save(final Person person);
-    Person getById(final Long id);
+    void save(final PersonDto personDto);
+    PersonDto getById(final Long id);
 }
